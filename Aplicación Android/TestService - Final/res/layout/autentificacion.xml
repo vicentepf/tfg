@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aqua"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_autentificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:text="@string/autentificacion_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/editText_autentificacion_numEmpleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_autentificacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/autentificacion_hint_numEmpleado"
+        android:inputType="numberSigned"
+        android:textSize="14sp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/editText_autentificacion_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_autentificacion_numEmpleado"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/autentificacion_hint_pass"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button_autentificacion_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_autentificacion_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/autentificacion_button_entrar"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button_autentificacion_salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_autentificacion_entrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/salir"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+</RelativeLayout>

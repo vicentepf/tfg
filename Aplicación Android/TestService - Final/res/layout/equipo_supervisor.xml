@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/aqua" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:paddingRight="10dp"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/text_equipo_supervisor_cabecera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/equipo_supervisor_cabecera"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_equipo_supervisor_id_posiciongps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_equipo_supervisor_id_posiciongps"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_equipo_supervisor_id_posiciongps_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_equipo_supervisor_latitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_equipo_supervisor_latitud"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_equipo_supervisor_latitud_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_equipo_supervisor_longitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_equipo_supervisor_longitud"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_equipo_supervisor_longitud_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_equipo_supervisor_descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_equipo_supervisor_descripcion"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_equipo_supervisor_descripcion_data"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:gravity="left"
+                android:hint=""
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <Button
+            android:id="@+id/button_equipo_supervisor_actualizar_datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/button_equipo_supervisor_actualizar_datos"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_equipo_supervisor_posiciongps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/button_equipo_supervisor_posiciongps"
+                android:textSize="16sp"
+                android:typeface="sans" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

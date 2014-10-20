@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/aqua" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:paddingRight="10dp"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/text_cambiar_pass_supervisor_cabecera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/cambiar_pass_supervisor_cabecera"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_cambiar_pass_supervisor_pass1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/text_cambiar_pass_supervisor_pass1"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/text_cambiar_pass_supervisor_pass1_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint=""
+                android:inputType="textPassword"
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_cambiar_pass_supervisor_pass2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/text_cambiar_pass_supervisor_pass1"
+                android:textSize="14sp"
+                android:typeface="sans" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/text_cambiar_pass_supervisor_pass2_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint=""
+                android:inputType="textPassword"
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <Button
+            android:id="@+id/button_cambiar_pass_supervisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="@string/button_cambiar_pass_supervisor"
+            android:textSize="16sp"
+            android:typeface="sans" />
+    </TableLayout>
+
+</ScrollView>

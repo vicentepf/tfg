@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/nuevoEmpleado"
+        android:icon="@android:drawable/ic_input_add"
+        android:textSize="14sp"
+        android:title="@string/menu_opciones_empleados_nuevo"
+        android:typeface="sans">
+    </item>
+    <item
+        android:id="@+id/acercaDe_empleados"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:textSize="14sp"
+        android:title="@string/menu_opciones_empleados_acercade"
+        android:typeface="sans">
+    </item>
+
+</menu>

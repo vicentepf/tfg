@@ -1,0 +1,277 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/aqua" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:paddingRight="10dp"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/text_empleado_supervisor_cabecera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/empleado_supervisor_cabecera"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_num_empleado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_empleado_supervisor_num_empleado"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_num_empleado_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_empleado_supervisor_pass"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_pass_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_empleado_supervisor_nombre"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_nombre_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_apellidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="@string/text_empleado_supervisor_apellidos"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_apellidos_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:text=""
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_direccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_empleado_supervisor_direccion"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_direccion_data"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:gravity="left"
+                android:hint=""
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_provincia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_trabajo_supervisor_provincia"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_provincia_data"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_empleado_supervisor_email"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_email_data"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:inputType="textEmailAddress"
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_tlf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_empleado_supervisor_tlf"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_tlf_data"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_dni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_empleado_supervisor_dni"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_dni_data"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_empleado_supervisor_nivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/text_empleado_supervisor_nivel"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/text_empleado_supervisor_nivel_data"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:hint=""
+                android:maxWidth="40dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:typeface="sans" >
+            </EditText>
+        </TableRow>
+
+        <Button
+            android:id="@+id/button_empleado_supervisor_actualizar_datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/button_empleado_supervisor_actualizar_datos"
+            android:textSize="16sp"
+            android:typeface="sans" />
+    </TableLayout>
+
+</ScrollView>

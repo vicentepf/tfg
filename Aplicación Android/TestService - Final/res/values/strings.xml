@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Telefonía TFG</string>
+    <string name="text_inserta">Insertar Empleado</string>
+    <string name="text_consulta">Consultar Empleado</string>
+    <string name="text_num">Nº Empleado</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_dni">DNI</string>
+    <string name="text_numEmpleado_consulta">Nº Empleado</string>
+    <string name="button_inserta">Insertar</string>
+    <string name="button_consulta">Consultar</string>
+    <string name="hint_resultado_consulta">Resultado#8230</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- GENERAL -->
+
+    <string name="salir">Salir</string>
+
+    <!-- AUTENTIFICACION -->
+
+    <string name="autentificacion_text">Inicio de Sesión</string>
+    <string name="autentificacion_hint_numEmpleado">Nº Empleado</string>
+    <string name="autentificacion_hint_pass">Contraseña</string>
+    <string name="autentificacion_button_entrar">Entrar</string>
+
+    <!-- MENU EMPLEADO -->
+
+    <string name="menu_empleado_titulo">Menú Empleado</string>
+    <string name="menu_empleado_trabajos">Trabajos</string>
+
+    <!-- MENU SUPERVISOR -->
+
+    <string name="menu_supervisor_titulo">Menú Supervisor</string>
+    <string name="menu_supervisor_trabajos">Trabajos</string>
+    <string name="menu_supervisor_equipamiento">Equipamiento</string>
+    <string name="menu_supervisor_empleados">Empleados</string>
+
+    <!-- TRABAJOS EMPLEADO -->
+
+    <string name="trabajos_empleado_cabecera">Trabajos Empleado</string>
+    <string name="trabajos_empleado_vacio">No hay trabajos</string>
+
+    <!-- TRABAJO EMPLEADO -->
+
+    <string name="trabajo_empleado_cabecera">Trabajo</string>
+    <string name="text_trabajo_empleado_id_trabajo">Id Trabajo</string>
+    <string name="text_trabajo_empleado_id_supervisor">Id Supervisor</string>
+    <string name="text_trabajo_empleado_num_empleado">Nº Empleado Asignado</string>
+    <string name="text_trabajo_empleado_provincia">Provincia</string>
+    <string name="text_trabajo_empleado_descripcion">Descripción</string>
+    <string name="text_trabajo_empleado_estado">Estado</string>
+    <string name="button_trabajo_empleado_estado">Cambiar Estado</string>
+    <string name="button_trabajo_empleado_posiciongps">Posición GPS</string>
+
+    <!-- TRABAJOS SUPERVISOR -->
+
+    <string name="trabajos_supervisor_cabecera">Trabajos Supervisor</string>
+    <string name="trabajos_supervisor_vacio">No hay trabajos</string>
+
+    <!-- TRABAJO SUPERVISOR -->
+
+    <string name="trabajo_supervisor_cabecera">Trabajo</string>
+    <string name="text_trabajo_supervisor_id_trabajo">Id Trabajo</string>
+    <string name="text_trabajo_supervisor_id_supervisor">Id Supervisor</string>
+    <string name="text_trabajo_supervisor_num_empleado">Nº Empleado Asignado</string>
+    <string name="text_trabajo_supervisor_provincia">Provincia</string>
+    <string name="text_trabajo_supervisor_descripcion">Descripción</string>
+    <string name="text_trabajo_supervisor_estado">Estado</string>
+    <string name="text_trabajo_supervisor_posiciongps">Posicion GPS</string>
+    <string name="button_trabajo_supervisor_estado">Cambiar Estado</string>
+    <string name="button_trabajo_supervisor_posiciongps">Posición GPS</string>
+    <string name="button_trabajo_supervisor_actualizar_datos">Actualizar Datos</string>
+
+    <!-- EQUIPAMIENTO SUPERVISOR -->
+
+    <string name="equipamiento_supervisor_cabecera">Equipamiento Supervisor</string>
+    <string name="equipamiento_supervisor_vacio">No hay equipos</string>
+
+    <!-- EQUIPO SUPERVISOR -->
+
+    <string name="equipo_supervisor_cabecera">Equipo</string>
+    <string name="text_equipo_supervisor_id_posiciongps">Id PosicionGPS</string>
+    <string name="text_equipo_supervisor_latitud">Latitud</string>
+    <string name="text_equipo_supervisor_longitud">Longitud</string>
+    <string name="text_equipo_supervisor_descripcion">Descripción</string>
+    <string name="button_equipo_supervisor_actualizar_datos">Actualizar Datos</string>
+    <string name="button_equipo_supervisor_posiciongps">Posición GPS</string>
+    
+    <!-- EMPLEADOS SUPERVISOR -->
+
+    <string name="empleados_supervisor_cabecera">Empleados Supervisor</string>
+    <string name="empleados_supervisor_vacio">No hay empleados</string>
+    
+    <!-- EMPLEADO SUPERVISOR -->
+
+    <string name="empleado_supervisor_cabecera">Empleado</string>
+    <string name="text_empleado_supervisor_num_empleado">Num Empleado</string>
+    <string name="text_empleado_supervisor_pass">Pass</string>
+    <string name="text_empleado_supervisor_nombre">Nombre</string>
+    <string name="text_empleado_supervisor_apellidos">Apellidos</string>
+    <string name="text_empleado_supervisor_direccion">Dirección</string>
+    <string name="text_empleado_supervisor_provincia">Provincia</string>
+    <string name="text_empleado_supervisor_email">Email</string>
+    <string name="text_empleado_supervisor_tlf">Tlf</string>
+    <string name="text_empleado_supervisor_dni">DNI</string>
+    <string name="text_empleado_supervisor_nivel">Nivel</string>
+    <string name="button_empleado_supervisor_actualizar_datos">Actualizar Datos</string>
+    
+    <!-- MENUS OPCIONES -->
+    
+    <string name="menu_opciones_equipamiento_nuevo">Nuevo Equipo</string>
+    <string name="menu_opciones_equipamiento_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_equipo_eliminar">Eliminar Equipo</string>
+    <string name="menu_opciones_equipo_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_empleados_nuevo">Nuevo Empleado</string>
+    <string name="menu_opciones_empleados_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_empleado_eliminar">Eliminar Empleado</string>
+    <string name="menu_opciones_empleado_acercade">Acerca de...</string>
+
+    <string name="menu_opciones_trabajos_supervisor_nuevo">Nuevo Trabajo</string>
+    <string name="menu_opciones_trabajos_supervisor_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_trabajo_supervisor_eliminar">Eliminar Trabajo</string>
+    <string name="menu_opciones_trabajo_supervisor_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_trabajos_empleado_acercade">Acerca de...</string>
+    <string name="menu_opciones_trabajo_empleado_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_autentificacion_acercade">Acerca de...</string>
+    
+    <string name="menu_opciones_menu_empleado_acercade">Acerca de...</string>
+    <string name="menu_opciones_menu_empleado_cambiar_pass">Cambiar Pass</string>
+    
+    <string name="menu_opciones_menu_supervisor_acercade">Acerca de...</string>
+    <string name="menu_opciones_menu_supervisor_cambiar_pass">Cambiar Pass</string>
+    
+    <!-- NUEVO EMPLEADO -->
+
+    <string name="nuevo_empleado_cabecera">Nuevo Empleado</string>
+    <string name="text_nuevo_empleado_num_empleado">Num Empleado</string>
+    <string name="text_nuevo_empleado_pass">Pass</string>
+    <string name="text_nuevo_empleado_nombre">Nombre</string>
+    <string name="text_nuevo_empleado_apellidos">Apellidos</string>
+    <string name="text_nuevo_empleado_direccion">Dirección</string>
+    <string name="text_nuevo_empleado_provincia">Provincia</string>
+    <string name="text_nuevo_empleado_email">Email</string>
+    <string name="text_nuevo_empleado_tlf">Tlf</string>
+    <string name="text_nuevo_empleado_dni">Dni</string>
+    <string name="text_nuevo_empleado_nivel">Nivel</string>
+    <string name="button_nuevo_empleado_insertar_datos">Insertar Datos</string>
+
+    <!-- NUEVO EQUIPO -->
+
+    <string name="nuevo_equipo_cabecera">Nuevo Equipo</string>
+    <string name="text_nuevo_equipo_id_posiciongps">Id PosicionGPS</string>
+    <string name="text_nuevo_equipo_latitud">Latitud</string>
+    <string name="text_nuevo_equipo_longitud">Longitud</string>
+    <string name="text_nuevo_equipo_descripcion">Descripción</string>
+    <string name="button_nuevo_equipo_insertar_datos">Insertar Datos</string>
+    
+    <!-- NUEVO TRABAJO -->
+
+    <string name="nuevo_trabajo_cabecera">Nuevo Trabajo</string>
+    <string name="text_nuevo_trabajo_id_trabajo">Id Trabajo</string>
+    <string name="text_nuevo_trabajo_id_supervisor">Id Supervisor</string>
+    <string name="text_nuevo_trabajo_num_empleado">Num Empleado</string>
+    <string name="text_nuevo_trabajo_id_posiciongps">Id PosicionGPS</string>
+    <string name="text_nuevo_trabajo_provincia">Provincia</string>
+    <string name="text_nuevo_trabajo_descripcion">Descripción</string>
+    <string name="text_nuevo_trabajo_estado">Estado</string>
+    <string name="button_nuevo_trabajo_insertar_datos">Insertar Datos</string>
+    
+    <!-- CAMBIAR PASS -->
+    
+    <string name="cambiar_pass_empleado_cabecera">Cambiar Pass</string>
+    <string name="text_cambiar_pass_empleado_pass1">Escribe la nueva pass</string>
+    <string name="text_cambiar_pass_empleado_pass2">Escribela de nuevo</string>
+    <string name="button_cambiar_pass_empleado">Cambiar</string>
+    
+    <string name="cambiar_pass_supervisor_cabecera">Cambiar Pass</string>
+    <string name="text_cambiar_pass_supervisor_pass1">Escribe la nueva pass</string>
+    <string name="text_cambiar_pass_supervisor_pass2">Escribela de nuevo</string>
+    <string name="button_cambiar_pass_supervisor">Cambiar</string>
+    
+</resources>
